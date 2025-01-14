@@ -1,15 +1,28 @@
-.photo{
+
+.photo {
     width: 302px;
-height: 290px;
-border-radius: 8px;
+    height: 290px;
+    border-radius: 8px;
+    transition: filter 0.3s ease-in-out; 
 }
 
-.photo:hover{
-    filter: grayscale(13%) contrast(80%) brightness(170%); 
-    background-image: url("../images/Eye.png");
-    background-size: contain;
+.icone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; 
+    width: 40px; 
+    height: 40px;
 }
 
+.photo:hover {
+    filter: grayscale(10%) contrast(60%) brightness(90%);
+}
+
+.photo:hover + .icone {
+    display: block; 
+}
 
 .heading{
   color: #fff;
