@@ -1,0 +1,20 @@
+.gray_div{
+    width: 350px;
+height: 596px;
+background-color: #15263F;
+box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.10);
+border-radius: 15px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+}
+
+
+
+@media (max-width: 370px ) {
+    .gray_div{width: 327px;
+        height: 543px;
+     
+        }
+}

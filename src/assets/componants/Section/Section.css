@@ -1,0 +1,52 @@
+.paragrraph {
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #8bacd9;
+  margin-right: 10%;
+}
+
+.phot {
+  width: 11px;
+  height: 18px;
+}
+
+.simpol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ETH {
+  color: #00fff8;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.clock {
+  color: #8bacd9;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+    
+}

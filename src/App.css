@@ -1,0 +1,8 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ overflow-y: hidden;
+  background: var(--very-dark-blue-main-bg, #0D192C);
+  height: 100vh;
+}
